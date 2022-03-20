@@ -17,11 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         TextView username =(TextView) findViewById(R.id.username);
         TextView password =(TextView) findViewById(R.id.password);
         TextView warningMessage =(TextView) findViewById(R.id.warningMessage);
-
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
 
         //admin and admin
